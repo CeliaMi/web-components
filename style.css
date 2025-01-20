@@ -1,0 +1,37 @@
+:root {
+    margin: 0;
+    padding: 0;
+    --nature-color: #1FCE9C;
+    --vibrant-color: #F8AE65;
+    --water-color: #8498D6;
+    font-family: Helvetica, sans-serif;
+  }
+
+.card-profile {
+    --size: 64px;
+    display:  inline-grid;
+    place-items: center;
+    grid-template-columns: var(--size) 1fr;
+    border: 5px solid var(--vibrant-color);
+    border-bottom-color: var(--water-color);
+    border-right-color: var( --nature-color);
+    border-radius: var(--size) ;
+    padding: 0.5rem 1em;
+
+
+
+    & img {
+        width: var(--size);
+        height: var(--size);
+        border-radius: 50%;
+    }
+
+    & span{
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 1.5 em;
+        font-weight: 700;
+        color:var(--water-color);
+        margin-left: 0.5em;
+    }
+
+}
