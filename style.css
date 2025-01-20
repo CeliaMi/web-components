@@ -27,7 +27,6 @@
     }
 
     & span{
-        font-family: 'Helvetica Neue', sans-serif;
         font-size: 1.5 em;
         font-weight: 700;
         color:var(--water-color);
